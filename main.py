@@ -7,7 +7,7 @@ def films():
     context = {
         "link": "Моделисты Ейска"
     }
-    return render_template("homea.html", **context)
+    return render_template("home.html", **context)
 
 @app.route("/person/")
 def person():
