@@ -7,14 +7,14 @@ def films():
     context = {
         "link": "Перейти в кинотеатр"
     }
-    return render_template("home.html", **context)
+    return render_template("about.html", **context)
 
 @app.route("/person/")
 def person():
     context = {
         "link": "Перейти в кинотеатр"
     }
-    return render_template("about.html", **context)
+    return render_template("home.html", **context)
 
 if __name__ == "__main__":
     app.run()
